@@ -1,0 +1,24 @@
+﻿  Compiling CUDA source file GPU_cufft.cu...
+  
+  C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"D:\SSOCT_HE\cuda-samples\cuda-samples-master\Common" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\x64\Debug\GPU_cufft.cu.obj "C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu" 
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(160): warning #177-D: function "my_hilbert" was declared but never referenced
+    static __declspec(__global__) void my_hilbert(float* FFT_buffer, long long int length_fft) {
+                                       ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(181): warning #177-D: function "my_dispersion" was declared but never referenced
+    static __declspec(__global__) void my_dispersion(float* FFT_buffer, float* dispersion, long long int length_fft_data) {
+                                       ^
+  
+  GPU_cufft.cu
+  tmpxft_000013d0_00000000-7_GPU_cufft.cudafe1.cpp
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(97): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(98): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(99): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(101): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(102): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(106): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\admin\source\repos\CUDA_OCT_Processing\CUDA_OCT_Processing\GPU_cufft.cu(114): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     Creating library C:\Users\admin\source\repos\CUDA_OCT_Processing\x64\Debug\CUDA_OCT_Processing.lib and object C:\Users\admin\source\repos\CUDA_OCT_Processing\x64\Debug\CUDA_OCT_Processing.exp
+  CUDA_OCT_Processing.vcxproj -> C:\Users\admin\source\repos\CUDA_OCT_Processing\x64\Debug\CUDA_OCT_Processing.dll
