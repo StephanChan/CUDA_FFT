@@ -1,0 +1,2 @@
+D:\SSOCT_HE\CUDA_code\CUDA_OCT_1Ch_amp\x64\Debug\CUDA_OCT_1Ch_amp.exe
+D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\CUDA_OCT_1Ch_amp.exe
