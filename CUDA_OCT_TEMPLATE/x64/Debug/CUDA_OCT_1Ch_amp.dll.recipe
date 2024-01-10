@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\SSOCT_HE\CUDA_code\CUDA_OCT_1Ch_amp\x64\Debug\CUDA_OCT_1Ch_amp.dll</FullPath>
+      <FullPath>D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\CUDA_OCT_1Ch_amp.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

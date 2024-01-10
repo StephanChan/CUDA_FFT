@@ -1,2 +1,19 @@
-﻿     Creating library D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\CUDA_OCT_1Ch_amp.lib and object D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\CUDA_OCT_1Ch_amp.exp
-  CUDA_OCT_1Ch_amp.vcxproj -> D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\CUDA_OCT_1Ch_amp.exe
+﻿  Compiling CUDA source file GPU_cufft.cu...
+  
+  D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\GPU_cufft.cu.obj "D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\GPU_cufft.cu" 
+D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\GPU_cufft.cu(169): warning #177-D: function "my_hilbert" was declared but never referenced
+    static __declspec(__global__) void my_hilbert(float* FFT_buffer, long long int length_fft) {
+                                       ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\GPU_cufft.cu(190): warning #177-D: function "my_dispersion" was declared but never referenced
+    static __declspec(__global__) void my_dispersion(float* FFT_buffer, float* dispersion, long long int length_fft_data) {
+                                       ^
+  
+  GPU_cufft.cu
+  tmpxft_000047c8_00000000-7_GPU_cufft.cudafe1.cpp
+D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\GPU_cufft.cu(45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\GPU_cufft.cu(134): warning C4244: 'argument': conversion from '__int64' to 'uint32_t', possible loss of data
+     Creating library D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\CUDA_OCT_1Ch_amp.lib and object D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\CUDA_OCT_1Ch_amp.exp
+  CUDA_OCT_1Ch_amp.vcxproj -> D:\SSOCT_HE\CUDA_code\CUDA_OCT_TEMPLATE\x64\Debug\CUDA_OCT_1Ch_amp.dll
